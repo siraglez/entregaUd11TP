@@ -44,9 +44,9 @@ public class ClaseCodigoProducto {
     //Pruebas unitarias
     public static void main(String[] args) {
         //Pruebas con entradas válidas
-        System.out.println(GeneraCodigo("Zapatillas deportivas", "Calzado")); //ZD-CA-001
-        System.out.println(GeneraCodigo("Camiseta manga corta", "Ropa")); //CM-RO-001
-        System.out.println(GeneraCodigo("Portátil", "Electrónica")); //PO-EL-001
+        System.out.println(GeneraCodigo("Zapatillas deportivas", "Calzado")); //ZD-C-001
+        System.out.println(GeneraCodigo("Camiseta manga corta", "Ropa")); //CMC-R-001
+        System.out.println(GeneraCodigo("Portátil", "Electrónica")); //P-E-001
 
         //Pruebas con entradas incorrectas o vacías
         System.out.println(GeneraCodigo(null, "Calzado"));
