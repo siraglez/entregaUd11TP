@@ -1,0 +1,9 @@
+@startuml
+
+class ClaseCodigoProducto {
+    - static codigoCounter: HashMap<String, Integer>
+    + static GeneraCodigo(descripcion: String, categoria: String): String
+    + static main(args: String[]): void
+}
+
+@enduml
